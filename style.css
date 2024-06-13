@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    background-image: url('./assets/japanese-food-image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    text-align: center;
+    margin-top: 15.0rem;
+}
+
+h1 {
+    line-height: 12.0rem;
+    font-size: 6.4rem;
+    font-family: 'Beth Ellen', sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+
+    margin-bottom: 4rem;
+}
+
+h1 span {
+    color: #FF5563;
+}
+
+p {
+    text-align: center;
+
+    font-family: 'Spectral', sans-serif;
+    font-size: 2.0rem;
+    font-weight: 500;
+    color: #FFFFFF;
+
+    margin-bottom: 4rem;
+}
+
+button {
+    text-align: center;
+    padding: 1.6rem 3.2rem;
+
+    font-family: 'Spectral', sans-serif;
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+    font-weight: 500;
+    color: #FFFFFF;
+
+    background-color: #FF5563;
+    border: none;
+    border-radius: 0.8rem;
+
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #be2a36;
+}
